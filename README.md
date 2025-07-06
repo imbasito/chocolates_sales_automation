@@ -31,3 +31,6 @@ chocolate-sales-automation/
 python scripts/batch_sales_processor.py
 
 Check the exports/ folder for results!
+
+💼 Why This Project?
+This project simulates what retail and e-commerce analysts do daily — automating repeatable data flows, building clean summaries, and preparing data for dashboards and business insights.
