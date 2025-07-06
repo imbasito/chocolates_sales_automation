@@ -16,3 +16,18 @@ This project simulates real-world automation of daily sales data for a fictional
 
 ## 📁 Project Structure
 
+chocolate-sales-automation/
+├── raw_data/ # Incoming daily CSVs
+├── exports/ # Auto-generated Excel summaries
+├── scripts/ # Python scripts (processor, combiner)
+├── powerbi_dashboard/ # (Optional) Power BI dashboard file
+├── README.md # Project overview
+└── project_summary.pdf # (Optional) Final presentation/report
+
+## ✅ How to Run
+1. Add `.csv` sales files into `raw_data/`
+2. Run the processor script:
+```bash
+python scripts/batch_sales_processor.py
+
+Check the exports/ folder for results!
